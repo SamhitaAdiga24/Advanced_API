@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from repository.user_repository import UserRepository
-from schemas.user_schemas import UserCreate, UserUpdate
+from schemas.user_schema import UserCreate, UserUpdate
 
 user_router = APIRouter()
 user_repo = UserRepository()
